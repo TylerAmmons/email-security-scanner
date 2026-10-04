@@ -119,12 +119,19 @@ flag_emails.py
 A new installation should contain these files after setup:
 
 email-security-scanner/
+
 ├── scanner.py
+
 ├── link_checker.py
+
 ├── flag_emails.py
+
 ├── .gitignore
+
 ├── credentials.json              # Create/download yourself
+
 ├── google_safe_browsing_key.txt  # Create yourself
+
 └── urlhaus_key.txt               # Create yourself
 
 The following files are generated automatically and should remain private:
